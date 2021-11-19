@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\duponte\\Downloads\\OneDrive_1_19-11-2021\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\duponte\\Downloads\\OneDrive_1_19-11-2021\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duponte\\Downloads\\OneDrive_1_19-11-2021\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe.csproj",
+        "projectName": "proto_sqlServer_classe",
+        "projectPath": "C:\\Users\\duponte\\Downloads\\OneDrive_1_19-11-2021\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe.csproj",
+        "packagesPath": "C:\\Users\\duponte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duponte\\Downloads\\OneDrive_1_19-11-2021\\proto_sqlServer_classe\\proto_sqlServer_classe\\proto_sqlServer_classe\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duponte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.17, 3.1.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
